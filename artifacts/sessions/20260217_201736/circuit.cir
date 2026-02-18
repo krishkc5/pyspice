@@ -1,0 +1,7 @@
+* Pulse-driven RL lowpass filter with output capacitor
+V1 in 0 PULSE(0 12 0.8m 2u 2u 0.8m 4m)
+R1 in out 220
+L1 out mid 3.3m
+C1 mid 0 47u
+.tran 5m
+.end
